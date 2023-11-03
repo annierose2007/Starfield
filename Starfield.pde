@@ -91,10 +91,10 @@ class Particle {
   void show(){
     fill(0);
     ellipse((float) myX,(float) myY, 5, 8);
-    ellipse((float) myX,(float) myY-1, 8, 0.1);
-    ellipse((float) myX,(float) myY + 3, 8,0.1);
-    ellipse((float) myX,(float) myY + 1, 8,0.1);
-    ellipse((float) myX,(float) myY -3, 8,0.1);
+    ellipse((float) myX,(float) myY-1, 10, 0.1);
+    ellipse((float) myX,(float) myY + 3, 10,0.1);
+    ellipse((float) myX,(float) myY + 1, 10,0.1);
+    ellipse((float) myX,(float) myY -3, 10, 0.1);
   }
 }
 class OddballParticle extends Particle {
@@ -106,6 +106,10 @@ class OddballParticle extends Particle {
   }
   void show() {
     fill(255);
-    ellipse((float) myX,(float) myY, 5, 5);
+    ellipse((float) myX,(float) myY, 5, 8);
+    ellipse((float) myX,(float) myY-1, 8, 0.1);
+    ellipse((float) myX,(float) myY + 3, 8,0.1);
+    ellipse((float) myX,(float) myY + 1, 8,0.1);
+    ellipse((float) myX,(float) myY -3, 8,0.1);
   }
 }
